@@ -37,7 +37,7 @@ class Calculator extends Component {
 
   render() {
     return (
-      <div className="container-fluid col-xs-12 col-sm-6 col-md-8">
+      
         <div class="calculator card col-xs-12 col-sm-6 col-md-8">
           <input
             type="text"
@@ -117,7 +117,7 @@ class Calculator extends Component {
             </button>
           </div>
         </div>
-      </div>
+      
     );
   }
 }
