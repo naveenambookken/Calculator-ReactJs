@@ -35,6 +35,7 @@ body{
 
     button {
       height: 60px;
+      width: 60px;
       font-size: 2rem!important;
       
     }
@@ -47,7 +48,7 @@ body{
     .calculator-keys {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      grid-gap: 40px;
-      padding: 20px;
+      grid-gap: 20px;
+      padding: 10px;
       
     }

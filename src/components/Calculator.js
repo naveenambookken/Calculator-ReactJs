@@ -37,7 +37,7 @@ class Calculator extends Component {
 
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid col-xs-12 col-sm-6 col-md-8">
         <div class="calculator card col-xs-12 col-sm-6 col-md-8">
           <input
             type="text"
@@ -46,7 +46,7 @@ class Calculator extends Component {
             disabled
           />
 
-          <div class="calculator-keys ">
+          <div class="calculator-keys">
             <button onClick={this.handleClick} type="button" class="operator btn btn-info" value="+">
               +
             </button>
