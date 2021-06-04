@@ -37,14 +37,15 @@ class Calculator extends Component {
 
   render() {
     return (
-      
-        <div class="calculator card col-xs-12 col-sm-6 col-md-8">
-          <input
-            type="text"
+      <div className="col-xs-12 col-sm-6 col-md-8">
+        <div class="calculator">
+          <textarea type="text"
             class="calculator-screen z-depth-1"
             value={this.state.data}
-            disabled
-          />
+            disabled>
+            
+            </textarea>
+          
 
           <div class="calculator-keys">
             <button onClick={this.handleClick} type="button" class="operator btn btn-info" value="+">
@@ -117,7 +118,7 @@ class Calculator extends Component {
             </button>
           </div>
         </div>
-      
+      </div>
     );
   }
 }
