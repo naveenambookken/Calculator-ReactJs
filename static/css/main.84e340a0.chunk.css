@@ -1,0 +1,2 @@
+*{margin:0;padding:0}body{font-size:62.5%}.calculator{background-color:#b5f08e;border:10px solid #ccc;border-radius:20px;position:absolute}.calculator-screen{width:100%;height:90px;border:none;background-color:#3b3939;color:#fff;text-align:left;padding-right:20px;padding-left:10px;font-size:4rem}button{height:60px;width:60px;font-size:2rem!important}.equal-sign{height:98%;grid-area:2/4/6/5}.calculator-keys{display:grid;grid-template-columns:repeat(4,1fr);grid-gap:20px;padding:10px}
+/*# sourceMappingURL=main.84e340a0.chunk.css.map */
